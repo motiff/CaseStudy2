@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Add Bootstrap CSS Here on line 10-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- This is REQUIRED for bootstrap to work correctly -->
+
+  <!-- This stylesheet is an example of how you can add your own stylesheet to customize bootstrap components. Notice how it is loaded 2nd to the required bootstrap stylesheet. This is so our stylesheet will overwrite bootstrap classes when we apply the same class but different styles to the stylsheet -->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <title>Case Study - Cuesine</title>
+</head>
+
+<body>
+  <!-- jumbotron -->
+  <div class="fill p-5 mb-4" id="jumbotron">
+    <div class="container-fluid py-5">
+      <h1 class="display-2 fw-bold text-end title">Cuesine</h1>
+      <h2 class="display-8 fw-bold text-end subtitle">A meal planning app</h2>
+      <!-- <button class="btn btn-primary btn-lg" type="button">Example button</button> -->
+    </div>
+  </div>
+  <div class="container-fluid py-4">
+    <div class="row introSection">
+      <div class="container-sm col-2">
+        <h6>My Team</h6>
+        Payam Olfat<br>
+        Kassandra Johnson<br>
+        Yuganshi Dhingra<br>
+      </div>
+      <div class="container-sm col-2">
+        <h6>My Role</h6>
+        User Research<br>
+        User Research Synthesis<br>
+        UI/UX Prototyping<br>
+        UI/UX Prototype Testing<br>
+      </div>
+      <div class="container-sm col-2">
+        <h6>Timeline</h6>
+        November 10, 2023 -<br>
+        November 28, 2023<br>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- sidebar scrollspy -->
+  <div class="container-fluid px-3">
+    <div class="row">
+      <div class="col-2 sidecol">
+        <nav id="navbar-example3 sidebar" class="sticky-toph-100 flex-column align-items-stretch pe-4 border-end sidebar sticky-top">
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-1">About</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-1-1">The Problem</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-1-2">The Goal</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-2">User Research</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-1">Proto-Persona</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-2">User Survey</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-3">User Interviews</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-2-4">User Persona</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-3">Definition & Ideation</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-1">Competitor Analysis</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-2">Feature Definition and Prioritization</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-3-3">User Journey</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-4">Testing & Iterating</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-1">User Flow</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-2">Sketches</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-3">Digital Wireframes</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-4">Lo-fi Prototype</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-5">Usability Testing and Iterations</a>
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-4-6">Mid-Fi Prototype</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link main-ul" href="#item-5">Hi-Fi Prototyping</a>
+            <nav class="nav nav-pills flex-column subgroup-ul">
+              <a class="nav-link ms-3 my-1 sub-ul" href="#item-5-1">Hi-Fi Mockup</a>
+            </nav>
+          </nav>
+          <nav class="nav nav-pills flex-column groupnav">
+            <a class="nav-link" href="#item-6">Conclusion</a>
+          </nav>
+        </nav>
+      </div>
+      <div class="col-1"></div>
+      <div class="col-8 col-offset-3">
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="false"
+          class="scrollspy-example" tabindex="0">
+            <section id = "section-1">
+              <div id="item-1">
+              <h4>About</h4>
+              <p>For my first group project in UI/UX, our job was to research, prototype, test, and validate an idea for a brand-new mobile application. Your creation must solve a real, clearly identified need in users’ everyday lives.
+                Out of many ideas our group generated for a mobile app, we all identified with the need to decide what to eat everyday.
+              </p>
+              <h3>"How might we make cooking easier and help users save time and money, and improve their nutrition?"</h3>
+            </div>
+            <div id="item-1-1">
+              <h5>The Problem</h5>
+                <p>Busy people face the everyday issue of eating out too much instead of cooking due to time constraints and the difficulty of keeping track of ingredients.
+                </p>
+            </div>
+            <div id="item-1-2">
+              <h5>The Goal</h5>
+              <p>Our goal is to redesign the Dream Center website to address these frustrations by:<br>
+                <ul>
+                  <li>
+                    Providing users with a calendar of diverse volunteer events, ensuring they can easily coordinate their volunteer work based on their time and interests.
+                  </li>
+                  <li>
+                    Offering transparency on the organization's impact by showcasing the real-world results of donors' and volunteers' contributions.
+                  </li>
+                  <li>
+                    Providing users with personal dashboards to track their own contributions and navigate a clear list of available volunteering opportunities to simplify the sign-up process.
+                  </li>
+                </ul>
+              </p>
+            </div>
+            </section>
+            <section id="section-2" class="mt-5">
+              <div id="item-2">
+              <h4>User Research</h4>
+              <p>
+                Before we started user research proper, we first designed a proto-persona describing our target user, a prospective donor and volunteer for Dream Center.
+              </p>
+              <div id="item-2-1">
+                <h5>Proto-Persona</h5>
+                <p>As we designed our proto-persona, we anticipated that users would:
+                  <ul>
+                    <li>
+                      Have a strong interest in volunteering.
+                    </li>
+                    <li>
+                      Be frustrated with aligning organizations to personal interests, a lack of responses from non-profits, and unsure of fund allocation.
+                    </li>
+                  </ul>
+                  <img src ="images/protopersona.png" class="img-fluid border rounded slideimage">
+                </p>
+              </div>
+              
+              <div id="item-2-2">
+                <h5>User Survey</h5>
+                <p>We conducted a user survey with respondents. We first surveyed about comparing eating out and cooking (budget, time, etc.) 
+                  We found that the majority of users struggled with time constraints when deciding what to eat. Additionally, being able to find quick and easy recipes was the most requested feature to motivate users to cook more often.
+                  These two insights inspired us to focus on making cooking as easy as possible.
+                   </p>
+                <img src ="images/survey.png" class="figure-image img-fluid border rounded slideimage"><br>
+              </div>
+              <div id="item-2-3">
+                <h5>User Interviews</h5>
+                <p>We conducted five user interviews. The key insights of these interviews taught us that users value having a website that is up-to-date and clearly presents the organization's identity and mission. They need to understand how they can help, different ways they can help, and what impact they are helping to make.</p>
+                <img src ="images/ui.png" class="figure-image img-fluid border rounded slideimage"><br>
+                <br>
+              </div>
+              <div id="item-2-4">
+                <h5>User Persona</h5>
+                <p>We then created an updated user persona by synthesizing the insights gained from our user research.</p>
+                <img src ="images/userpersona.png" class="figure-image img-fluid border rounded slideimage"><br>
+              </div>
+            </section>
+          <section id="section-3" class="mt-5">
+            <div id="item-3">
+              <h4>Definition & Ideation</h4>
+              <p>With an idea of what users need, we started to explore the </p>
+            </div>
+            <div id="item-3-1">
+              <h5>Competitor Analysis</h5>
+              <p>Our direct competitors were similar meal planning mobile apps: <a href="
+                https://www.mealime.com/">Mealime</a> and <a href="https://www.eatthismuch.com/">Eat This Much</a>. Our indirect competitors included <a href="
+                https://www.goodwill.org/">Recipe Keeper</a> and <a href="https://www.apch.org/">Factor</a>. Recipe Keeper is a desktop-only application, and Factor is a meal delivery app.</p>
+                <img src="images/comp.png" class="figure-image img-fluid border rounded slideimage"><br>
+                <p>We noted the readability of each of these websites' navigation and display of their mission. We also noticed similarities in features. All of them have a prominently displayed Donate call-to-action button that would take you to the portal to donate. They had also had some form of volunteer sign-up, but it would be located in different places, but more commonly under a "Get Involved" option in the dropdown menu. We admired A Place Called Home for their event calendar feature which let users view upcoming events without first having to sign up. We also were inspired by PATH's graphics that displayed statistics that reported their organization's impact.</p>
+            </div>
+            <div id="item-3-2">
+              <h5>Feature Definition and Prioritization</h5>
+              <p>We created an I Like, I Wish, What If chart and a Feature Prioritization Matrix that allowed us to vote on, define, and organize ideas for features based on feasibility and originality.</p>
+                <img src="images/ilike.jpg" class="figure-image img-fluid border rounded slideimage"> <br>
+                <img src="images/featurematrix.jpg" class="figure-image img-fluid border rounded slideimage"> <br>
+                <p>We planned to execute the following ideas in the "Now" and "Wow!" sections to serve our user's needs while imagining more advanced ideas for future features in the "How?" section.</p>
+                <ul>
+                  <li><b>Our key features in the “Now” portion: </b>filtering and searching for recipes, keeping track of ingredients, creating a meal plan</li>
+                  <li><b>Easier, more original ideas near the “Wow!” section:</b> filtering recipes by cooking method, bookmarking recipes for later</li>
+                  <li><b>Interesting “How?” ideas for the future:</b> receipt scanning, AR ingredient scanning, AI-generated meal plans</li>
+                </ul>
+                <p>By developing a new website for the Dream Center with a transparent reporting system of use of donated funds, a updated event calendar system, and a personalized dashboard, we help prospective volunteers and donors to solve roadblocks in trusting the organization, getting involved, and staying motivated.</p><br>
+
+            </div>
+            <div id="item-3-3">
+              <h5>User Journey</h5>
+              <!-- <p>Our user persona, Jessica Gates, is actively searching for an organization that supports individuals affected by homelessness, hunger, and lack of education. During her quest, she discovers the Dream Center website and is eager to explore opportunities to get involved. She is specifically seeking details on how to join their volunteering services.<br>Her goals are to:</p>
+                <ul>
+                  <li>Volunteer and get involved with Dream Center in a way that aligns with her personal goals.</li>
+                  <li>See how her donations are used by Dream Center.</li>
+                </ul>
+                We created a user journey map to map out the thoughts and feelings that Jessica has in interacting with our redesigned Dream Center website. <br>
+                <img src="images/userjourney.png" class="figure-image img-fluid border rounded slideimage"> <br>
+                <ol>
+                  <li>Jessica searches online for organizations for a cause she believes in. After some time, she happens upon the Dream Center website.</li>
+                  <li>Her curiosity is piqued looking at the home page. It has eyecatching graphics, and she sees their mission upfront and likes their cause.</li>
+                  <li>However, Jessica doesn't know if she can trust Dream Center. She looks for more information.</li>
+                  <li>From clicking "Our Impact," she finds the transparency reporting system to view how donated funds are being used, and feels more trusting.</li>
+                  <li>Jessica decides she wants to get involved, but she can't donate much money. She looks for how she can volunteer.</li>
+                  <li>Jessica finds and reads the calendar of volunteer events and explores the details of the event she is interested in, such as date, time, location, and the specific tasks involved.</li>
+                  <li>Jessica identifies a volunteer event that matches with her schedule, and that is a part of a program that resonates with her interests and skills. She feels a personal connection to the program.</li>
+                  <li>Jessica decides to commit and clicks on the event's sign-up button.</li>
+                  <li>She recieves a confirmation email with additional details about the event. She also is prompted to create an account. When she signs up, she accesses a personal dashboard showing her contribution history, a list of upcoming events, and messages from fellow members of the organization welcoming her. She feels connected to Dream Center and motivated to keep contributing.</li>
+                </ol><br> -->
+              
+            </div>
+          </section>
+
+          <section id="section-4" class="mt-5">
+            <div id="item-4">
+              <h4>Testing & Iterating</h4>
+              <p>With our plans, we began to formalize the structure of the website and create prototypes we can test and iterate upon.</p>
+              <img src="images/testingdata.png" class="figure-image img-fluid border rounded slideimage">
+            </div>
+            <div id="item-4-1">
+              <h5>User Flow</h5>
+              <p>Using the information architecture from our card sorting, we constructed a user flow. The user would either want to volunteer, donate, or view the organization's impact. We designed the primary navigation to make these paths as seamless as possible. When signing up to volunteer or donate, the user would be directed to create an account so that they may view the User Dashboard. From the User Dashboard they can view their contribution history and upcoming events.</p>
+              <img src="images/userflow.png" class="figure-image img-fluid border rounded slideimage"> <br>
+              <p>A part of the flow not pictured here is that the list of Programs would link to the individual pages of each program, that would each have links to volunteer and/or donate to them, to highlight their impact on the Impact Report, and to view their events on the Event Calendar. This has yet to be built out.</p>
+            </div>
+            <div id="item-4-2">
+              <h5>Sketches</h5>
+              <p>We then sketched out what the user interface might look like.</p>
+              <img src="images/sketches.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-4-3">
+              <h5>Digital Wireframes</h5>
+              <img src="images/wireframes.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-4-4">
+              <h5>Lo-fi Prototype</h5>
+              <p>We made slight changes from our digital wireframes to lo-fi prototypes based on teacher feedback, such as increasing the breathing room between elements on the home page.</p>
+              <img src="images/lofi.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-4-5">
+              <h5>Usability Testing and Iterations</h5>
+              <p>
+                We then took our lo-fi prototype to conduct usability tests.
+                The tasks we wanted to test are:
+                <ol>
+                  <li>Successfully create an account.</li>
+                  <li>Successfully add ingredients to their digital pantry.</li>
+                  <li>Sucessfully choose a recipe using filters.</li>
+                </ol>
+                We compiled all the insights gained through the usability tests onto a matrix indicating the complexity and the impact/priority of how we could address the issue in our design.
+                <!-- We then catagorized them into issues with navigation, visual design, and other  -->
+              </p>
+              <img src="images/testingdata.jpg" class="figure-image img-fluid border rounded slideimage"><br>
+              <p>Most readability issues would be fixed in transition to Mid-Fi, however there were a few issues that were of relatively high priority:
+                <li>The path from the Pantry page to the Home page was unclear.</li>
+                <li>The Home page was not readable as the page where users can find recipes.</li>
+                <li>It should be more easily to keep track of what ingredients </li>
+                </p>
+              <p>Based on the results, we made iterations to the prototypes:</p>
+              <img src="images/iteration.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+            <div id="item-4-6">
+              <h5>Mid-Fi Prototype</h5>
+              <img src="images/midfi.png" class="figure-image img-fluid border rounded slideimage"><br>
+            </div>
+          </section>
+          <section id="section-5" class="mt-5">
+            <div id="item-5"><h4>Hi-Fi Prototyping</h4>
+            <div id="item-5-1"><p>We did not finish a high fidelity prototype within the working period. However, I created some screens of what a hi-fidelity prototype would look like with color images and the implementation of the green accent color from our logo.</p>
+            <img src="images/hifi.png" class="figure-image img-fluid border rounded slideimage"></div>
+          </div>
+          </section>
+          <section id="section-6" class="mt-5 mb-5">
+            <div id="item-6">
+              <h4>Conclusion</h4>
+              <p>This was our first group project, and we further fpracticed team communication</p>
+              <p>Our next steps would be to fully build out the hi-fidelity prototype, as well as testing and iterating upon it. 
+                In the future we would like to build out the bookmarking feature and add more features such as a shopping list, custom recipes, and community features.</p>
+            </div>
+          </section>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- THE BELOW SCRIPT TAGS ARE REQUIRED FOR CERTAIN COMPONENTS IN BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
