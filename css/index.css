@@ -67,6 +67,37 @@ h3{
   margin-right: auto;
   display: block;
 }
+.prototypecard{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  max-width: 700px;
+}
+.card-title{
+  font-size: 1.3em;
+}
+.card-text{
+  font-size: 1.1em;
+}
+.card-body{
+  padding-top: 15%;
+}
+.blockquote{
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.blockquote-footer{
+  margin-top: auto;
+}
+.prototypebutton2{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 .figure{
   margin-bottom: 5px;
 }
