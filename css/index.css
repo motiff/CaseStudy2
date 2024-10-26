@@ -3,7 +3,6 @@ body{
   font-family: Roboto, sans-serif;
 }
 .fill{
-  /* background-image: url(https://cataas.com/cat); */
   background-image: url("../images/banner2.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,8 +69,8 @@ h3{
 .prototypecard{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   display: block;
   max-width: 700px;
 }
@@ -93,10 +92,20 @@ h3{
 .blockquote-footer{
   margin-top: auto;
 }
-.prototypebutton2{
+.button-link{
+  text-decoration: none !important;
+}
+.prototypebutton{
   margin-left: auto;
   margin-right: auto;
   display: block;
+  background-color: #6e64ff;
+  border: 2px solid #6e64ff !important;
+}
+.prototypebutton:hover{
+  background-color: white;
+  color: #6e64ff;
+  border: 2px solid #6e64ff !important;
 }
 .figure{
   margin-bottom: 5px;
@@ -109,4 +118,10 @@ figcaption{
 }
 .container-fluid{
   padding: 0;
+}
+/* hide sidebar */
+@media only screen and (max-width:1179px){
+  .sidebar{
+    visibility: hidden;
+  }
 }
